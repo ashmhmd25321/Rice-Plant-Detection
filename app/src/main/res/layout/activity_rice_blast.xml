@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#8EE87F"
+    tools:context=".RiceBlastActivity">
+
+    <TextView
+        android:id="@+id/my_text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="RICE BLAST DISEASE"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#2D8C0A"
+        android:textSize="28sp"></TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="413dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/my_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rice blast caused by fungus Magnaporthe oryzae, is generally considered the most important disease of rice worldwide because of its extensive distribution and destructiveness under favorable conditions. A leaf blast infection can kill seedlings or plants up to the tillering stage. At later growth stages, a severe leaf blast infection reduces leaf area for grain fill, reducing grain yield."
+            android:textAlignment="center"
+            android:textSize="18sp"></TextView>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/my_text_view3"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="24dp"
+        android:text="Symptoms"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        android:textColor="#57F81C"></TextView>
+
+    <TextView
+        android:id="@+id/my_text_view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" •	Some resemble diamond shape, wide in the center and pointed toward either ends. \n•	Lesions can enlarge and coalesce, growing together, to kill the entire leaves.
+           "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view3"></TextView>
+
+    <TextView
+        android:id="@+id/my_text_view5"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:text="How to manage"
+        android:textColor="#57F81C"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view4"></TextView>
+
+    <TextView
+        android:id="@+id/my_text_view6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="•Adjust planting time. Sow seeds early, when possible, after the onset of the rainy season.\n    •	Split nitrogen fertilizer application in two or more treatments. Excessive use of fertilizer can increase blast intensity.\n
+        •Flood the field as often as possible.
+"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view5"></TextView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download PDF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

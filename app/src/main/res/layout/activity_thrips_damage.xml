@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThripsDamageActivity">
+
+    <TextView
+        android:id="@+id/my_text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="RICE THRIPS DAMAGE "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#2D8C0A"
+        android:textSize="28sp"></TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="413dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/my_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rice Thrips damage caused by fungus Stenchaetothrips biformis (Bagnall). Periods of dry weather favor the development of the rice thrips. No standing water in the rice fields encourages damage.
+These insects are present in all rice environments. In the tropics, the rice thrips becomes abundant in dry periods from July to September and January to March. In temperate areas, the insects migrate and hibernate on graminaceous weeds during the winter season.
+"
+            android:textAlignment="center"
+            android:textSize="18sp"></TextView>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/my_text_view3"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:text="Symptoms"
+        android:textColor="#57F81C"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"></TextView>
+
+    <TextView
+        android:id="@+id/my_text_view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="•	damaged leaves have silvery streaks or yellowish patches\n
+•	translucent epidermis becomes visible on damaged area\n
+•	leaves curled from the margin to the middle\n
+•	leaf tips wither off when severely infested\n
+•	unfilled grains at panicle stage
+"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view3"></TextView>
+
+    <TextView
+        android:id="@+id/my_text_view5"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:text="How to manage"
+        android:textColor="#57F81C"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view4"></TextView>
+
+    <TextView
+        android:id="@+id/my_text_view6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="•	Use resistant varieties.\n
+Contact your local agriculture office for an up-to-date list of available varieties.\n
+•	Flood to submerge the infested field for two days.\n
+•	Encourage biological control agents: predatory thrips, coccinellid beetles, anthocorid bugs, and staphylinid beetles.
+"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view5"></TextView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download PDF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
